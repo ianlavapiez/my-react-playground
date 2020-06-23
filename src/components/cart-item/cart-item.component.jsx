@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react'
 
 import {
   CartItemContainer,
   ItemDetailsContainer,
-  CartItemImage
-} from './cart-item.styles';
+  CartItemImage,
+} from './cart-item.styles'
 
 const CartItem = ({ item: { imageUrl, price, name, quantity } }) => (
   <CartItemContainer>
@@ -16,6 +16,6 @@ const CartItem = ({ item: { imageUrl, price, name, quantity } }) => (
       </span>
     </ItemDetailsContainer>
   </CartItemContainer>
-);
+)
 
-export default CartItem;
+export default CartItem
