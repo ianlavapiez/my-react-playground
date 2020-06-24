@@ -1,5 +1,8 @@
 {
     "cSpell.ignoreWords": [
-        "firestore"
+        "errored",
+        "firestore",
+        "has",
+        "has errored"
     ]
 }
